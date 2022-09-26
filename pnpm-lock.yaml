@@ -1,0 +1,21 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers: {}
+
+  package-a:
+    specifiers:
+      '@wufe/mapper': ^0.5.0
+    dependencies:
+      '@wufe/mapper': 0.5.0
+
+  package-b:
+    specifiers: {}
+
+packages:
+
+  /@wufe/mapper/0.5.0:
+    resolution: {integrity: sha512-F1oyCHrFS1lxybd9OWwkuT6KkfZK1k6K1zFsGCxxurBa8bhP3dUCnRuBE+SDawOV/jHBcJzlpkYaHnujaUQGlA==}
+    dev: false
