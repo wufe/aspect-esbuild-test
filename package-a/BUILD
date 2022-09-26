@@ -7,7 +7,11 @@ esbuild(
     name = "bundle",
     srcs = [
         "src/index.ts",
+        ":node_modules/@wufe/mapper"
     ],
     # config = "esbuild.config.mjs",
+    data = [
+        
+    ],
     entry_point = "src/index.ts",
 )
